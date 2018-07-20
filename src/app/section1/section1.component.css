@@ -1,0 +1,23 @@
+.section{
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.img-container{
+    width: 40%;
+}
+
+img{
+    width: 80%;
+}
+
+.info-container{
+    width: 40%;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
